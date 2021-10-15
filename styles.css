@@ -1,1 +1,29 @@
-
+/* Import fonts */
+@font-face {
+  font-family: 'Roseritta';
+  src: url('https://uploads-ssl.webflow.com/5ffb75dc0e826a57399ba4c5/5ffb76bac98da96ffd0a0a4c_Roseritta.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Loenna';
+  src: url('https://uploads-ssl.webflow.com/5ffb75dc0e826a57399ba4c5/6036a353904d990cc61ab913_Loenna-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'TT Ramillas';
+  src: url('https://uploads-ssl.webflow.com/5ffb75dc0e826a57399ba4c5/5ffb77e9679b326eab065edf_TTRamillas-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Silk serif';
+  src: url('https://uploads-ssl.webflow.com/5ffb75dc0e826a57399ba4c5/603458b47c38d7fa064795e3_Silk%20Serif%20Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
