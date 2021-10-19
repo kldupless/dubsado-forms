@@ -37,6 +37,8 @@
 /* Style global Dubsado elements */
 .jb-form {
 font-family: 'TT Ramillas', 'Cormorant Garamond', serif;
+  font-weight: 300;
+  
 }
 
 .jb-form h1 {}
