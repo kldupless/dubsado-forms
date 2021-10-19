@@ -34,6 +34,15 @@
   font-style: normal;
   font-display: swap;
 }
+
+/* Set color variables */
+:root {
+  --brand-color-bg: #f2f2f3;
+  --brand-color-light: #beb1a7;
+  --brand-color-mid: #d3a579;
+  --brand-color-dark: #1d2635;
+}
+
 /* Style global Dubsado elements */
 .jb-form {
 font-family: 'TT Ramillas', 'Cormorant Garamond', serif;
