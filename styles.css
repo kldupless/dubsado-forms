@@ -35,7 +35,9 @@
   font-display: swap;
 }
 /* Style global Dubsado elements */
-.jb-form {}
+.jb-form {
+font-family: 'TT Ramillas', 'Cormorant Garamond', serif;
+}
 
 .jb-form h1 {}
 
