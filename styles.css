@@ -60,37 +60,38 @@
 
 /* Style global Dubsado elements */
 .jb-form {
-font-family: 'TT Ramillas', 'Cormorant Garamond', serif;
-  font-weight: 300;
-  color: var(--brand-color-text);
+
 }
 
 .jb-form h1 {
-font-family: 'Roseritta', serif;
+font-family: 'Roseritta', serif !important;
   font-weight: 400;
   text-transform: uppercase;
 }
 
 .jb-form h2 {
-font-family: 'Violet JW Sans', serif;
+font-family: 'Violet JW Sans', serif !important;;
   font-weight: 400;
   letter-spacing: .15em;
 }
 
 .jb-form h3 {
-font-family: 'Silk serif', serif;
+font-family: 'Silk serif', serif !important;;
   font-weight: 200;
   letter-spacing: .1em;
 }
 
 .jb-form h4 {
-font-family: 'Silk serif', serif;
+font-family: 'Silk serif', serif !important;;
   font-weight: 200;
   font-style: italic;
   letter-spacing: .1em;
 }
 
-.form-text {}
+.form-text {
+font-family: 'TT Ramillas', 'Cormorant Garamond', serif;
+  font-weight: 300;
+  color: var(--brand-color-text);}
 
 /* targets all the question text */
 .jb-form label {}
