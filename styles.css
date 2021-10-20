@@ -1,49 +1,49 @@
 /* Import fonts */
 @font-face {
-  font-family: 'Roseritta';
-  src: url('https://krysialynne-dubsado.netlify.app/fonts/Roseritta.woff2') format('woff2');
+  font-family: "Roseritta";
+  src: url('https://krysialynne-dubsado.netlify.app/fonts/Roseritta.woff2') format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Bon Vivant Script';
-  src: url('https://krysialynne-dubsado.netlify.app/fonts/Bon_Vivant_Script.woff2') format('woff2');
+  font-family: "Bon Vivant Script";
+  src: url('https://krysialynne-dubsado.netlify.app/fonts/Bon_Vivant_Script.woff2') format("woff2");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'TT Ramillas';
-  src: url('https://krysialynne-dubsado.netlify.app/fonts/TT_Ramillas_Light.woff2') format('woff2');
+  font-family: "TT Ramillas";
+  src: url('https://krysialynne-dubsado.netlify.app/fonts/TT_Ramillas_Light.woff2') format("woff2");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'TT Ramillas';
-  src: url('https://krysialynne-dubsado.netlify.app/fonts/TT_Ramillas_Light_Italic.woff2') format('woff2');
+  font-family: "TT Ramillas";
+  src: url('https://krysialynne-dubsado.netlify.app/fonts/TT_Ramillas_Light_Italic.woff2') format("woff2");
   font-weight: 300;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Silk serif';
-  src: url('https://krysialynne-dubsado.netlify.app/fonts/Silk_Serif_ExtraLight.woff2') format('woff2');
+  font-family: "Silk serif";
+  src: url('https://krysialynne-dubsado.netlify.app/fonts/Silk_Serif_ExtraLight.woff2') format("woff2");
   font-weight: 200;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Silk serif';
-  src: url('https://krysialynne-dubsado.netlify.app/fonts/Silk_Serif_ExtraLight_Italic.woff2') format('woff2');
+  font-family: "Silk serif";
+  src: url('https://krysialynne-dubsado.netlify.app/fonts/Silk_Serif_ExtraLight_Italic.woff2') format("woff2");
   font-weight: 200;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Violet JW Sans';
-  src: url('https://krysialynne-dubsado.netlify.app/fonts/Violet_JW_Sans.woff2') format('woff2');
+  font-family: "Violet JW Sans";
+  src: url('https://krysialynne-dubsado.netlify.app/fonts/Violet_JW_Sans.woff2') format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -60,7 +60,9 @@
 
 /* Style global Dubsado elements */
 .jb-form {
-
+font-family: 'TT Ramillas', 'Cormorant Garamond', serif;
+  font-weight: 300;
+  color: var(--brand-color-text);
 }
 
 .jb-form h1 {
@@ -89,9 +91,7 @@ font-family: 'Silk serif', serif !important;;
 }
 
 .form-text {
-font-family: 'TT Ramillas', 'Cormorant Garamond', serif;
-  font-weight: 300;
-  color: var(--brand-color-text);}
+}
 
 /* targets all the question text */
 .jb-form label {}
