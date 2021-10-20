@@ -21,10 +21,24 @@
   font-display: swap;
 }
 @font-face {
+  font-family: 'TT Ramillas';
+  src: url('https://uploads-ssl.webflow.com/5ffb75dc0e826a57399ba4c5/5ffb77e9a79f64adf3537e19_TTRamillas-LightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
   font-family: 'Silk serif';
   src: url('https://uploads-ssl.webflow.com/5ffb75dc0e826a57399ba4c5/603458b47c38d7fa064795e3_Silk%20Serif%20Light.otf') format('opentype');
   font-weight: 300;
   font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Silk serif';
+  src: url('https://uploads-ssl.webflow.com/5ffb75dc0e826a57399ba4c5/603458b4f0e186710d017a29_Silk%20Serif%20Light%20Italic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
   font-display: swap;
 }
 @font-face {
