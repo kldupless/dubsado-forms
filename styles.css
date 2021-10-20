@@ -1,49 +1,49 @@
 /* Import fonts */
 @font-face {
   font-family: 'Roseritta';
-  src: url('https://uploads-ssl.webflow.com/5ffb75dc0e826a57399ba4c5/5ffb76bac98da96ffd0a0a4c_Roseritta.otf') format('opentype');
+  src: url('https://krysialynne-dubsado.netlify.app/fonts/Roseritta.woff2') format('opentype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Loenna';
-  src: url('https://uploads-ssl.webflow.com/5ffb75dc0e826a57399ba4c5/6036a353904d990cc61ab913_Loenna-Light.ttf') format('truetype');
+  font-family: 'Bon Vivant Script';
+  src: url('https://krysialynne-dubsado.netlify.app/fonts/Bon_Vivant_Script.woff2') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'TT Ramillas';
-  src: url('https://uploads-ssl.webflow.com/5ffb75dc0e826a57399ba4c5/5ffb77e9679b326eab065edf_TTRamillas-Light.otf') format('opentype');
+  src: url('https://krysialynne-dubsado.netlify.app/fonts/TT_Ramillas_Light.woff2') format('opentype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'TT Ramillas';
-  src: url('https://uploads-ssl.webflow.com/5ffb75dc0e826a57399ba4c5/5ffb77e9a79f64adf3537e19_TTRamillas-LightItalic.otf') format('opentype');
+  src: url('https://krysialynne-dubsado.netlify.app/fonts/TT_Ramillas_Light_Italic.woff2') format('opentype');
   font-weight: 300;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: 'Silk serif';
-  src: url('https://uploads-ssl.webflow.com/5ffb75dc0e826a57399ba4c5/603458b47c38d7fa064795e3_Silk%20Serif%20Light.otf') format('opentype');
-  font-weight: 300;
+  src: url('https://krysialynne-dubsado.netlify.app/fonts/Silk_Serif_ExtraLight.woff2') format('opentype');
+  font-weight: 200;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Silk serif';
-  src: url('https://uploads-ssl.webflow.com/5ffb75dc0e826a57399ba4c5/603458b4f0e186710d017a29_Silk%20Serif%20Light%20Italic.otf') format('opentype');
-  font-weight: 300;
+  src: url('https://krysialynne-dubsado.netlify.app/fonts/Silk_Serif_ExtraLight_Italic.woff2') format('opentype');
+  font-weight: 200;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Violey JW Sans';
-  src: url('https://uploads-ssl.webflow.com/5ffb75dc0e826a57399ba4c5/5ffb781292999724ee7c0d83_VioletJWSans-Regular.otf') format('opentype');
+  font-family: 'Violet JW Sans';
+  src: url('https://krysialynne-dubsado.netlify.app/fonts/Violet_JW_Sans.woff2') format('opentype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -62,16 +62,33 @@
 .jb-form {
 font-family: 'TT Ramillas', 'Cormorant Garamond', serif;
   font-weight: 300;
-  
+  color: var(--brand-color-text);
 }
 
-.jb-form h1 {}
+.jb-form h1 {
+font-family: Roseritta, serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
 
-.jb-form h2 {}
+.jb-form h2 {
+font-family: 'Violet JW Sans', serif;
+  font-weight: 400;
+  letter-spacing: .15em;
+}
 
-.jb-form h3 {}
+.jb-form h3 {
+font-family: 'Silk serif', serif;
+  font-weight: 200;
+  letter-spacing: .1em;
+}
 
-.jb-form h4 {}
+.jb-form h4 {
+font-family: 'Silk serif', serif;
+  font-weight: 200;
+  font-style: italic;
+  letter-spacing: .1em;
+}
 
 .form-text {}
 
